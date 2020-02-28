@@ -1,0 +1,188 @@
+*
+{
+    font-family: montserrat;
+}
+.mainbox
+{
+        display: none;
+        position: fixed;
+	border: 3px solid #192a56;
+        right: 22px;
+	bottom: -71px;
+	width: 331px;
+        height: 445px;
+        border-radius: 20px 20px 0px 0px;
+	margin: 77px auto;
+        background-image: linear-gradient(to left,#192a56,#227093);
+}
+.topbox
+{
+	position: relative;
+	text-align: center;
+	border-bottom: 3px solid #192a56;
+	font-size: 28px;
+	background-image: linear-gradient(to right,#192a56,#227093);
+	border-radius: 16px 16px 0px 0px;
+	padding-top: 21px;
+        color:#f5f6fa;
+	height: 50px;
+}
+.close_symbol
+{
+    position:fixed;
+    z-index: 10;
+    top: 227px;
+    right: 38px;
+}
+.display
+{
+	position: relative;
+	height: 312px;
+	background: white;
+	overflow-y: scroll;
+}
+.bottombox
+{
+    border-top: 3px solid #192a56;
+    padding-top: 9px;
+}
+.form_send
+{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.message
+{
+	resize: none;
+	background: rgba(25, 42, 86,0.3);
+        border: 1px solid white;
+	height: 34px;
+	width: 86%;
+}
+.message:focus
+{
+    border: 1px solid #227093;
+    background: white;
+}
+.sendbox
+{
+	position: relative;
+	height: 35px;
+	width: 72px;
+	right: 6px;
+	font-family: "Comic Sans MS";
+	font-size: 14px;
+	letter-spacing: 2px;
+	border: 0px solid #f5f6fa; 
+        background: rgba(22,160,133,0.9);
+	color: white;
+        outline: none;
+	border-radius: 20px;
+}
+.sendbox:hover
+{
+	background: rgba(22,160,133,0.7);
+        cursor: pointer;
+}
+.req
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.req .request
+{
+	position: relative;
+        border-radius: 13px;
+	background: #34495e;
+        font-size: 13px;
+        padding: 13px 8px 13px 8px;
+        width: max-content;
+        max-width: 220px;
+	color: white;
+	float: left;
+	margin-right: 5px;
+        margin-bottom: 5px;
+	top: 10px;
+}
+.res
+{
+	display: flex;
+	flex-direction: row;
+}
+.res .response
+{
+	position: relative;
+	border-radius: 13px;
+        padding: 13px 8px 13px 8px;
+        /*background: #574b90;*/
+        background: #493f79;
+        width: max-content;
+        max-width: 220px;
+        font-size: 13px;
+	color: white;
+	margin-left: 5px;
+        margin-bottom: 5px;
+	float: right;
+        line-height: 1.4;
+	top: 10px;
+}
+.opt
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 13px;
+    width: 296px;
+    margin-top: 7px;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+.options
+{
+	border-radius: 13px;
+        border: 2px solid #493f79;
+        padding: 5px;
+        /*background: #574b90;*/
+        background: white;
+        box-shadow: 0px 1px 4px black;
+        font-size: 0px;
+	color: black;
+        margin: 2px 3px;
+}
+.suggest
+{
+        position: relative;
+        border-radius: 6px;
+        padding: 6px;
+        /*background: #574b90;*/
+        background: #805656;
+        width: max-content;
+        max-width: 220px;
+        font-size: 13px;
+	color: white;
+	margin-left: 5px;
+        margin-bottom: 5px;
+        line-height: 1.4;
+	top: 10px;
+}
+.btn_opt
+{
+    border: none;
+    background: transparent;
+    outline: none; 
+    cursor: pointer;
+}
+.img_corner
+{
+	position: fixed;
+        right: 10px;
+	bottom: 5px;
+	width: 60px;
+	height: 58px;
+}
+.imag
+{
+	max-width: 60px;
+	height: auto;
+}

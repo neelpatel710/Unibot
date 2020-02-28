@@ -1,0 +1,134 @@
+*
+{
+    font-family: montserrat;
+}
+.mainbox
+{
+        display: none;
+        position: fixed;
+	border: 3px solid #153641;
+        right: 22px;
+	bottom: -71px;
+	width: 331px;
+        height: 445px;
+        border-radius: 20px 20px 0px 0px;
+	margin: 77px auto;
+        background: #94CFC9;
+}
+.topbox
+{
+	position: relative;
+	text-align: center;
+	border-bottom: 3px solid #153641;
+	font-size: 28px;
+	background: #4799B7;
+	border-radius: 16px 16px 0px 0px;
+	padding-top: 21px;
+	height: 50px;
+}
+.display
+{
+	position: relative;
+	height: 312px;
+	background: white;
+	overflow-y: scroll;
+}
+.bottombox
+{
+    border-top: 3px solid #153641;
+    padding-top: 9px;
+}
+.form_send
+{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.message
+{
+	resize: none;
+	background: #4799B7;
+	border: 3px solid #364E8F;
+	height: 34px;
+	width: 86%;
+}
+.message:focus
+{
+    background: white;
+}
+.sendbox
+{
+	position: relative;
+	height: 35px;
+	width: 72px;
+	right: 6px;
+	font-family: "Comic Sans MS";
+	font-size: 14px;
+	letter-spacing: 2px;
+	border: 3px solid #22556E; 
+	background: #22556E;
+	color: white;
+	border-radius: 20px;
+}
+.sendbox:hover
+{
+	color: black;
+}
+.req
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.req .request
+{
+	position: relative;
+        border-radius: 20px;
+	background: #344257;
+        font-size: 13px;
+        padding: 8px;
+	color: white;
+	float: left;
+	margin-right: 5px;
+        margin-bottom: 5px;
+	top: 10px;
+}
+.res
+{
+	display: flex;
+	flex-direction: row;
+}
+.res .response
+{
+	position: relative;
+	border-radius: 20px;
+        padding: 8px;
+	background: #112F41;
+        font-size: 13px;
+	color: white;
+	margin-left: 5px;
+        margin-bottom: 5px;
+	float: right;
+	top: 10px;
+}
+.img_corner
+{
+	position: fixed;
+        right: 10px;
+	bottom: 5px;
+	width: 60px;
+	height: 58px;
+}
+img
+{
+	max-width: 60px;
+	height: auto;
+}
+.close_button
+{
+    position: relative;
+    left: 125px;
+    bottom: 33px;
+    width: 30px;
+    height: 30px;
+}
